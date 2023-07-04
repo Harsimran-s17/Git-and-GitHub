@@ -1,0 +1,61 @@
+BASIC LINUX COMMANDS
+
+List
+-- ls : List all the items in current directory
+	eg: ls 
+
+-- ls -a : List  all the items including hidden files in current directory
+	   eg: ls -a
+
+Change Directory
+-- cd : To change directory
+	eg: cd folder1<folder1 is a directory Name present in current directory>
+
+Making Folder
+-- mkdir : To Create Folder in current Directory
+	   eg: mkdir New_Folder
+
+Creating a file
+-- touch : To create a new file
+	   eg: touch fileName
+
+Deleting a file
+-- rm : To remove a file
+	eg: rm fileName
+
+Open file to edit  in vi editor
+-- vi : Opening a file in vi editor to edit
+	eg: vi fileName
+
+Displaying File content
+-- cat : Displaying file content in command line interface
+	eg: cat fileName
+
+
+GIT COMMANDS
+
+-- git init : is a command to initialize .git repository. In simple words, it creates .git folder in current directory.
+
+-- git status : is provide the information about the untracked files, staged files , unstaged files, staged files with changes.
+
+-- git add : used to staging the files 
+	     eg: git add .( '.' means all files in current directory)
+		 git add file1 file2
+
+-- git commit : used to commit the changes of staged files
+		eg: git commit -m(stands for message) "message"
+
+-- git rm --cached <file> : to unstage the files from stage
+
+-- git restore <file> : to discard the changes in working directory
+
+-- git restore --staged <file> : to unstage file
+
+
+
+UNDERSTANDING GIT THROUGH WEDDING EXAMPLE
+
+Suppose in wedding guests are going to stage for pictures.In git we relate guest to enter stage as funcitoning of 'git add' command
+and the clicking of photograph can be related to 'git commit' command. Now as the photograph is stored in Album, Similarly 
+the changes has been commited to archive with date and time.
+
